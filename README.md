@@ -37,9 +37,9 @@ export default {
 	},
 	methods: {
 		onClose (id) {
-        },
+        	},
 		onBefore (id, tab) {
-        },
+        	},
 		onAfter (id, tab) {
 		}
 	},
