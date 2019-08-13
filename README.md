@@ -85,8 +85,8 @@ export default {
 ## Options
 | Properties   | Description
 |--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| anchor       | true (default) or false. If enabled, when a tab is clicked, it's id is set in url's fragment so that the tab is retained on page reloads.                                                                                       |
-| hideTitle    | true (default) or falseHide the title element within section elements.                                                                                                                                                          |
+| anchor       | false (default) or true. If enabled, when a tab is clicked, it's id is set in url's fragment so that the tab is retained on page reloads.                                                                                       |
+| hideTitle    | false (default) or true. Hide the title element within section elements.                                                                                                                                                          |
 | sectionClass | Section element's class. Default is section.                                                                                                                                                                                    |
 | tabsClass    | Tab (ul) container's class. Default is tabs.                                                                                                                                                                                    |
 | tabClass     | Individual tab's (li) class. Default is tab.                                                                                                                                                                                    |
