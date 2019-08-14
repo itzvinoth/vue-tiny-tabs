@@ -11,7 +11,7 @@ $ npm install vue-tiny-tabs
 ```
 
 # Example
-```
+```vue
 <template>
 	<vue-tiny-tabs id="mytabs" :anchor="false" :closable="true" :hideTitle="false" @on-close="onClose" @on-before="onBefore" @on-after="onAfter">
 		<div class="section" id="example">
@@ -47,9 +47,10 @@ export default {
 	},
 }
 </script>
+```
 
-<!-- Sample css for tab design -->
-<style>
+### Customized CSS for styling
+```
 .tinytabs .tabs {
 	margin-left: 15px;
 	display: flex;
@@ -80,8 +81,6 @@ export default {
 	color: #333;
 	text-shadow: none;
 }
-
-</style>
 ```
 
 ## Options
