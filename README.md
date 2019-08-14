@@ -3,6 +3,9 @@
 
 Documentation and Demo: https://vue-tiny-tabs.netlify.com
 
+![vuetinytabs](https://user-images.githubusercontent.com/1731965/62969020-f2ebff80-be29-11e9-9c1c-461bc0aecee7.png)
+
+
 Find the npm package [`link`](https://www.npmjs.com/package/vue-tiny-tabs)
 
 # Install and basic usage
