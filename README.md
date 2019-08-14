@@ -1,9 +1,9 @@
 # Description
-`vue-tiny-tabs` is a vuejs wrapper for javascript tabbing library (tinytabs)[https://github.com/knadh/tinytabs]
+Vuejs wrapper for [`tinytabs`](https://github.com/knadh/tinytabs)
 
 Documentation and Demo: https://vue-tiny-tabs.netlify.com
 
-![vuetinytabs](https://user-images.githubusercontent.com/1731965/62969020-f2ebff80-be29-11e9-9c1c-461bc0aecee7.png)
+![vtt](https://user-images.githubusercontent.com/1731965/63014487-4d2da480-beac-11e9-9866-0673cd10635b.png)
 
 
 Find the npm package [`link`](https://www.npmjs.com/package/vue-tiny-tabs)
