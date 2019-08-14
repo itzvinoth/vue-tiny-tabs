@@ -38,14 +38,17 @@ import VueTinyTabs from 'vue-tiny-tabs'
 export default {
 	name: 'TinyTabs',
 	components: {
-		'vue-tiny-tabs' :VueTinyTabs
+		'vue-tiny-tabs': VueTinyTabs
 	},
 	methods: {
 		onClose (id) {
-        	},
+			console.log('Callback function that gets evaluated while closing the tab', id)
+        },
 		onBefore (id, tab) {
-        	},
+			console.log('Callback function that gets evaluated before a tab is activated', id, tab)
+        },
 		onAfter (id, tab) {
+			console.log('Callback function that gets evaluated after a tab is activated', id, tab)
 		}
 	},
 }
@@ -53,7 +56,7 @@ export default {
 ```
 
 ### Customized CSS for styling
-```
+```css
 .tinytabs .tabs {
 	margin-left: 15px;
 	display: flex;
