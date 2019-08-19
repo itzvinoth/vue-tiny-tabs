@@ -103,4 +103,6 @@ export default {
 | onClose        | function(id). Callback function that gets evaluated while closing the tab. The argument is the id of the tab.                                                             |                                          
 
 
+Please find out tinytabs wrapper for [`Reactjs`](https://github.com/mevinoth/r-tiny-tabs)
+
 MIT License.
