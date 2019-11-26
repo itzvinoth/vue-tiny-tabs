@@ -37,7 +37,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/vinothkumarrenganathan/vue-tiny-tabs.git"
+    "url": "git://github.com/mevinoth/vue-tiny-tabs.git"
   },
   "description": "VueJs wrapper for tinytabs component"
 }
