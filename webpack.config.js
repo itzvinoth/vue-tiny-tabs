@@ -1,9 +1,10 @@
 var path = require('path')
 var webpack = require('webpack')
+const VueLoaderPlugin = require('vue-loader/lib/plugin')
 
 module.exports = {
   entry: './src/plugin.js',
-  
+
   module: {
     rules: [
       // use babel-loader for js files
@@ -41,6 +42,7 @@ if (process.env.NODE_ENV === 'production') {
     }),
     new webpack.LoaderOptionsPlugin({
       minimize: true
-    })
+    }),
+    new VueLoaderPlugin()
   ])
 }

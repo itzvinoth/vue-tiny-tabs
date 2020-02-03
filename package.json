@@ -1,6 +1,6 @@
 {
   "name": "vue-tiny-tabs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "src/plugin.js",
   "scripts": {
     "build": "webpack -p"
